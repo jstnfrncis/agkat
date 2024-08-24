@@ -1,6 +1,6 @@
 
-import Close from './Close';
-import Logo from './Logo';
+import Close from '../UI/Close';
+import Logo from '../UI/Logo';
 // import { Link } from 'react-router-dom';
 
 export default function Navigation() {

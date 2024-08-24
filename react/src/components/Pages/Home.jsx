@@ -1,13 +1,12 @@
-
-import './App.css'
-import About from './components/About.jsx';
-import Footer from './components/Footer.jsx';
-import Hero from './components/Hero';
-import MeshBackground from './components/MeshBackground';
-import Navbar from './components/navbar';
-import Socialproof from './components/Socialproof.jsx';
-import NewsEvents from './components/NewsEvents.jsx';
-import FeaturedSpots from './components/FeaturedSpots.jsx';
+import '../../App.css'
+import About from '../Layout/About.jsx';
+import Footer from '../Layout/Footer.jsx';
+import Hero from '../Layout/Hero';
+import MeshBackground from '../UI/MeshBackground';
+import Navbar from '../Layout/navbar';
+import Socialproof from '../Layout/Socialproof.jsx';
+import NewsEvents from '../Layout/NewsEvents.jsx';
+import FeaturedSpots from '../Layout/FeaturedSpots.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import smoothscroll from 'smoothscroll-polyfill';
 
@@ -15,7 +14,7 @@ import smoothscroll from 'smoothscroll-polyfill';
 smoothscroll.polyfill();
 
 
-function App() {
+function Home() {
   return (
     <Router>
       <div>
@@ -50,6 +49,6 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
 
 
