@@ -7,7 +7,7 @@ const  FeaturedSpots = ( {className}) => {
     return (
         
       <div className='flex flex-col gap-12'>
-        <h1 className="font-clash text-4xl md:text-5xl lg:text-6xl text-left">Featured spots</h1>
+        <h1 className="font-clash text-4xl md:text-5xl lg:text-6xl text-left">Sample Dashboard</h1>
         
       <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ${className}`}>
          <FeaturedCard className='bg-[url(/est1.png)] bg-no-repeat bg-cover'

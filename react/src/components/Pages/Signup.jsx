@@ -2,16 +2,17 @@
 import { useState } from 'react';
 import Input from '../UI/Input';
 import Logo from '../UI/Logo';
-import MeshBackground from '../UI/MeshBackground';
 import Button from '../UI/Button';
 
+import MeshBackground from '../UI/MeshBackground';
 
 
 
 
 
 
-export default function Login() {
+
+export default function Signin() {
 
   const [showPassword, setShowPassword] = useState(false);
   const handleCheckboxChange = () => {
@@ -30,14 +31,32 @@ export default function Login() {
   <div className="flex flex-col items-center w-full max-w-md bg-white rounded-xl ring-1 ring-gray-100 shadow-sm">
     <div className="flex flex-col w-full px-6 py-8">
       <h2 className="text-left text-xl leading-9 tracking-tight text-gray-900 font-Manbold">
-        Log in your account
+        Create your account
       </h2>
 
       <form action="#" method="POST" className="w-full flex flex-col gap-2 mt-8">
         <div>
-          <Input />
+          <Input
+           label="Name"
+           id="name"
+           name="name"
+           type="text" 
+           autoComplete="current-password"
+           />
         </div>
 
+        <div>
+          <Input />
+        </div>
+        <div>
+          <Input
+           label="Phone number"
+           id="number"
+           name="number"
+           type="number" 
+           placeholder="09********"
+           />
+        </div>
         <div>
            <Input
                   label="Password"
@@ -45,6 +64,8 @@ export default function Login() {
                   name="password"
                   type={showPassword ? 'text' : 'password'} 
                   autoComplete="current-password"
+                  placeholder="********"
+
                 />
         </div>
 
@@ -58,19 +79,11 @@ export default function Login() {
                   />
          <label htmlFor="checkbox">Show password</label>
           </div>
-        <Button variant="primary">Sign in</Button>
+          <Button variant="primary"><a href="/otpverification">Create account</a></Button>
         </div>
       </form>
 
      <div className='flex flex-col gap-6 mt-8 w-full'>
-       <div className="flex items-center justify-center">
-         <a
-           href="/password_reset"
-           className="text-sm text-accent hover:text-indigo-500 font-Manregular"
-         >
-           Forgot password?
-         </a>
-       </div>
       
        <button className=" bg-white flex items-center justify-center gap-2 px-3  w-full rounded-md border-0 py-2 ring-1 ring-stroke shadow-sm active:scale-[0.98] active-duration-75 transition-all">
          <a href="#" className="flex items-center gap-2 leading-6 text-primary hover:text-indigo-500">
@@ -83,7 +96,7 @@ export default function Login() {
            <span className="font-Manbold text-sm">Sign in with Google</span>
          </a>
        </button>
-       <p className='font-Manregular text-sm'>Don&apos;t have an account? <a href="/signup" className='text-accent hover:underline'>Create account</a></p>
+       <p className='font-Manregular text-sm'>Have an account? <a href="/login" className='text-accent hover:underline'>Log in</a></p>
      </div>
     </div>
   </div>
