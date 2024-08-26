@@ -1,6 +1,6 @@
 
 import PropTypes from 'prop-types';
-import Slider from './EventSlider';
+import Slider from '../UI/EventSlider';
 
 
 const  NewsEvents = ({className}) => {
