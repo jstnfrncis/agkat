@@ -5,6 +5,7 @@
 
 Terminal type
 composer global require "laravel/installer=~1.1"
+composer require phpmailer/phpmailer
 
 
 Run the Laravel
