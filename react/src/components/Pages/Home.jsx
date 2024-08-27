@@ -7,10 +7,6 @@ import Navbar from '../Layout/navbar';
 import Socialproof from '../Layout/Socialproof.jsx';
 import NewsEvents from '../Layout/NewsEvents.jsx';
 import FeaturedSpots from '../Layout/FeaturedSpots.jsx';
-import smoothscroll from 'smoothscroll-polyfill';
-
-// Kick off the polyfill!
-smoothscroll.polyfill();
 
 
 
