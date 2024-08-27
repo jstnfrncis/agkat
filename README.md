@@ -16,14 +16,14 @@ Terminal type
 npm run dev
 
 
+## Install react Router Dom
+npm install react-router-dom
 
 
+## Install Tailwind
+npm install -D tailwindcss postcss autoprefixer
 
-
-
-
-
-
+npx tailwindcss init
 
 
 
