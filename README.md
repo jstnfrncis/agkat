@@ -16,15 +16,20 @@ php artisan serve
 Terminal type
 npm run dev
 
+## Dependencies
 
 ## Install react Router Dom
 npm install react-router-dom
 
+## React component
+npm install @radix-ui/react-dropdown-menu @remixicon/react
 
 ## Install Tailwind
 npm install -D tailwindcss postcss autoprefixer
 
 npx tailwindcss init
+
+
 
 
 
