@@ -23,7 +23,7 @@ export default function Navigation() {
                     <li><a href="#event" className='hover:text-accent transition'>News & Events</a></li>
                     <li><a href="#discover" className='hover:text-accent transition'>Discover</a></li>
                     <li ><a href="#about" className='hover:text-accent transition'>About</a></li>
-                    <button className="bg-accent hover:bg-blue-900 transition-all text-white px-6 py-2 rounded-lg active:scale-[0.98] active-duration-75 "><a href="/login">Sign in</a></button>
+                    <button className="bg-accent hover:bg-blue-900 transition-all text-white px-6 py-2 rounded-lg active:scale-[0.98] active-duration-75 "><a href="/login-select">Sign in</a></button>
                 </ul>
             </div>
             
