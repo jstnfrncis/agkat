@@ -3,29 +3,29 @@
 
 ## Install composer
 
-Terminal type
-composer global require "laravel/installer=~1.1"
-composer require phpmailer/phpmailer
+- Terminal type
+- composer global require "laravel/installer=~1.1"
+- composer require phpmailer/phpmailer
 
 
-Run the Laravel
-php artisan serve
+- Run the Laravel
+- php artisan serve
 
 
 ## Run React Application
-Terminal type
-npm run dev
+- Terminal type
+- npm run dev
 
 ## Install Dependencies
 
-npm install react-router-dom
-npm install prop-types
-npm install @radix-ui/react-dropdown-menu @remixicon/react
+- npm install react-router-dom
+- npm install prop-types
+- npm install @radix-ui/react-dropdown-menu @remixicon/react
 
 ## Install Tailwind
-npm install -D tailwindcss postcss autoprefixer
+- npm install -D tailwindcss postcss autoprefixer
 
-npx tailwindcss init
+- npx tailwindcss init
 
 
 
