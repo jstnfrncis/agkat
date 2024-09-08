@@ -14,7 +14,7 @@ export default function LoginSelect() {
             <Logo/>
             </div>
 
-         <div className='flex flex-col justify-center lg:max-w-custom mx-auto gap-12 min-h-[70vh]'>
+         <div className='flex flex-col justify-center lg:max-w-custom mx-auto gap-12 min-h-[70vh] mt-14 lg:mt-0'>
          <div className='flex font-Manbold'>
            <a href="/" className='flex gap-2'><img src="/back-icon.svg" alt="back-icon" />Back</a>
          </div>

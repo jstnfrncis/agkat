@@ -24,7 +24,7 @@ const  FeaturedSpots = ( {className}) => {
         </div>
 
     <div className='max-w-custom mx-auto my-28'>
-          <div className='flex flex-col gap-4 justify-between lg:flex-row lg:gap-4 mb-12'>
+          <div className='flex flex-col gap-4 justify-between lg:flex-row lg:gap-4 mb-16'>
             <div className='relative font-Manregular w-full md:w-auto'>
            <img src="/search-icon.svg" alt="" className='absolute left-5 top-1/2 transform -translate-y-1/2' />
             <input className="relative font-Manbold block rounded-md appearance-none bg-transparent pl-12 py-4 pr-12 text-sm  text-primary placeholder:text-primary focus:outline-accent sm:text-sm sm:leading-6 ring-1 ring-stroke shadow-sm w-full" placeholder="Search place" type="text"/>
@@ -124,7 +124,7 @@ FeaturedSpots.propTypes = {
           <p className='text-white font-Manregular text-left'>{category}</p>
           <div className='flex justify-between items-center'>
             {stars}
-            <button className='font-Manbold rounded-3xl bg-accent text-white  hover:bg-blue-900 transition-all inline-flex justify-center  text-sm  py-3 px-6 active:scale-[0.98] active-duration-75 ' >{button}</button>
+            <button className='font-Manbold rounded-3xl bg-accent text-white  hover:bg-blue-900 transition-all inline-flex justify-center  text-sm  py-3 px-6 active:scale-[0.98] active-duration-75 ' ><a href="/establishment-overview">{button} </a></button>
             
           </div>
           

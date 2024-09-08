@@ -11,6 +11,8 @@ import OtpPasswordReset from './components/Pages/OtpPasswordReset';
 import Dashboard from './components/Pages/Dashboard';
 import LoginSelect from './components/Pages/LoginSelect';
 import ExplorePage from './components/Pages/ExplorePage';
+import OverviewReview from './components/Pages/OverviewReview';
+
 
 
 
@@ -32,6 +34,8 @@ createRoot(document.getElementById('root')).render(
                 <Route path="/dashboard" element ={<Dashboard/>}/>
                 <Route path="/login-select" element ={<LoginSelect/>}/>
                 <Route path="/explore-page" element ={<ExplorePage/>}/>
+                <Route path="/establishment-overview" element ={<OverviewReview/>}/>
+
                 <Route path="*" element={<Notfound />} />
             </Routes>
         </Router>

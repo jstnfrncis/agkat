@@ -96,7 +96,7 @@ export default function Signin() {
            <span className="font-Manbold text-sm">Sign in with Google</span>
          </a>
        </button>
-       <p className='font-Manregular text-sm'>Have an account? <a href="/login" className='text-accent hover:underline'>Log in</a></p>
+       <p className='font-Manregular text-sm'>Have an account? <a href="/otpverification" className='text-accent hover:underline'>Log in</a></p>
      </div>
     </div>
   </div>
