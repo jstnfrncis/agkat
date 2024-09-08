@@ -16,12 +16,10 @@ php artisan serve
 Terminal type
 npm run dev
 
-## Dependencies
+## Install Dependencies
 
-## Install react Router Dom
 npm install react-router-dom
-
-## React component
+npm install prop-types
 npm install @radix-ui/react-dropdown-menu @remixicon/react
 
 ## Install Tailwind
