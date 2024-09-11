@@ -38,19 +38,19 @@ const Stepper = ({ step, onNext, onBack }) => {
 
       </div>
       <div
-        className={`relative after:absolute after:inset-x-0 after:top-1/2 after:block after:h-1 after:-translate-y-1/2 after:rounded-lg after:bg-gray-100  ${
+        className={`relative after:absolute after:inset-x-0 after:top-1/2 after:block after:h-1 after:-translate-y-1/2 after:rounded-lg after:bg-gray-200  ${
           step === 2
-            ? 'after:bg-accent after:w-1/2'
+            ? 'after:bg-[#5d5fef] after:w-1/2'
             : step === 3
-            ? 'after:bg-accent after:w-full'
+            ? 'after:bg-[#5d5fef] after:w-full'
             : ''
-        }`}
+        }`} 
       >
-        <ol className="relative z-10 flex justify-between text-sm font-medium text-gray-700">
+        <ol className="relative z-10 flex justify-between text-sm font-medium text-white">
           <li className="flex items-center gap-2">
             <span
               className={`size-6 rounded-full text-white text-center text-[10px]/6 font-bold ${
-                step >= 1 ? 'bg-blue-500' : 'bg-accent'
+                step >= 1 ? 'bg-accent' : 'bg-accent'
               }`}
             >
               1
@@ -60,7 +60,7 @@ const Stepper = ({ step, onNext, onBack }) => {
           <li className="flex items-center gap-2">
             <span
               className={`size-6 rounded-full text-center text-[10px]/6 font-bold ${
-                step >= 2 ? 'bg-blue-500 text-white' : 'bg-gray-100'
+                step >= 2 ? 'bg-blue-500 text-white' : '!bg-accent'
               }`}
             >
               2
@@ -70,7 +70,7 @@ const Stepper = ({ step, onNext, onBack }) => {
           <li className="flex items-center gap-2">
             <span
               className={`size-6 rounded-full text-center text-[10px]/6 font-bold ${
-                step === 3 ? 'bg-blue-500 text-white' : 'bg-gray-100'
+                step === 3 ? 'bg-accent text-white' : '!bg-accent'
               }`}
             >
               3
