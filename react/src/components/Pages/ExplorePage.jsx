@@ -1,6 +1,6 @@
 // To remove the classnName is missing a prop validation. Not required.
 import PropTypes from 'prop-types';
-import Logo from '../UI/Logo';
+import HeaderLogo from '../UI/HeaderLogo';
 import Button from '../UI/Button';
 import Dropdown from '../UI/Dropdown';
 import Footer from '../Layout/Footer';
@@ -11,9 +11,7 @@ import Footer from '../Layout/Footer';
 const  FeaturedSpots = ( {className}) => {
     return (
       <>
-      <div className="flex justify-center items-center flex-col sm:mx-auto sm:w-full sm:max-w-sm">
-      <Logo/>
-      </div>
+      <HeaderLogo/>
       <div className='relative flex flex-col gap-6 font-Manregular text-left px-12 py-24 bg-white rounded-xl ring-1 ring-gray-100 shadow-sm my-24 w-full h-90'>
       <div className='absolute inset-0 bg-none md:bg-[url("/public/explore-banner.png")] bg-cover bg-center rounded-xl'/>
          <div className='relative z-10 '>

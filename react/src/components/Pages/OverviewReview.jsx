@@ -1,5 +1,5 @@
 // To remove the classnName is missing a prop validation. Not required.
-import Logo from '../UI/Logo';
+import HeaderLogo from '../UI/HeaderLogo';
 import Button from '../UI/Button';
 import Footer from '../Layout/Footer';
 import ReviewPagination from '../Functions/ReviewPagination';
@@ -19,9 +19,7 @@ export default function  OverviewReview () {
     };
     return (
       <>
-      <div className="flex justify-center items-center flex-col sm:mx-auto sm:w-full sm:max-w-sm">
-      <Logo/>
-      </div>
+      <HeaderLogo/>
       <div className='relative flex flex-col gap-6 font-Manregular text-left px-12 py-24 bg-white rounded-xl ring-1 ring-gray-100 shadow-sm my-24 w-full h-90 overflow-hidden'>
       <div className="absolute inset-0 z-10 bg-gradient-to-r from-black via-black to-transparent opacity-50 "/>
       <div className='absolute inset-0 bg-[url("/public/at-the-blanc-banner.png")] bg-cover bg-center rounded-xl'/>
@@ -47,7 +45,7 @@ export default function  OverviewReview () {
         </div>
 
         <div className='flex flex-col gap-4'>
-          <Button variant='primary'>Write a review</Button>
+          <Button variant='primary'><a href="/write-review">Write a review</a></Button>
           <div className='grid place-items-center'>
             <img src="/atb-qr.png" alt="QR Code" className='w-[150px]' />
           </div>

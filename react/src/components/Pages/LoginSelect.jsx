@@ -1,4 +1,4 @@
-import Logo from '../UI/Logo';
+import HeaderLogo from '../UI/HeaderLogo';
 import Button from '../UI/Button';
 import MeshBackground from '../UI/MeshBackground';
 
@@ -9,10 +9,7 @@ export default function LoginSelect() {
 
     return (
       <>
-
-       <div className="flex justify-center items-center flex-col sm:mx-auto sm:w-full sm:max-w-sm">
-            <Logo/>
-            </div>
+            <HeaderLogo/>
 
          <div className='flex flex-col justify-center lg:max-w-custom mx-auto gap-12 min-h-[70vh] mt-14 lg:mt-0'>
          <div className='flex font-Manbold'>

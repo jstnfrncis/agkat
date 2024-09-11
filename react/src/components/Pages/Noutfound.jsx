@@ -1,13 +1,11 @@
-import Logo from "../UI/Logo";
+import HeaderLogo from '../UI/HeaderLogo';
 import MeshBackground from "../UI/MeshBackground";
 
 export default function Notfound() {
     return (
       <>
   
-           <div className="flex justify-center items-center flex-col sm:mx-auto sm:w-full sm:max-w-sm">
-            <Logo/>
-            </div>
+            <HeaderLogo/>
         <main className="grid min-h-[70vh] place-items-center px-6 py-24 sm:py-32 lg:px-8 ">
          
           <div className="text-center">
