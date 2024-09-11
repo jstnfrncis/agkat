@@ -53,7 +53,7 @@ export default function Summary(){
                  
                    </section>
              
-                   <section className="flex gap-2">
+                   <section className="grid grid-cols-2 sm:grid-cols-9 gap-2">
                      <img src="/demo-photo.png" alt="" />
                      <img src="/demo-photo.png" alt="" />
                      <img src="/demo-photo.png" alt="" />
