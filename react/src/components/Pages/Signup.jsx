@@ -1,9 +1,8 @@
 
 import { useState } from 'react';
 import Input from '../UI/Input';
-import Logo from '../UI/Logo';
+import HeaderLogo from '../UI/HeaderLogo';
 import Button from '../UI/Button';
-
 import MeshBackground from '../UI/MeshBackground';
 
 
@@ -23,10 +22,7 @@ export default function Signin() {
 
     return (
       <>
-
-       <div className="flex justify-center items-center flex-col sm:mx-auto sm:w-full sm:max-w-sm">
-            <Logo/>
-            </div>
+            <HeaderLogo/>
             <div className="flex min-h-[70vh] items-center justify-center px-2 py-12 bg-white-100 max-w-[400px] mx-auto">
   <div className="flex flex-col items-center w-full max-w-md bg-white rounded-xl ring-1 ring-gray-100 shadow-sm">
     <div className="flex flex-col w-full px-6 py-8">

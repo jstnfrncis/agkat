@@ -12,7 +12,8 @@ import Dashboard from './components/Pages/Dashboard';
 import LoginSelect from './components/Pages/LoginSelect';
 import ExplorePage from './components/Pages/ExplorePage';
 import OverviewReview from './components/Pages/OverviewReview';
-
+import RatingPage from './components/Pages/RatingPage';
+import WriteReview from './components/Pages/WriteReview';
 
 
 
@@ -35,6 +36,10 @@ createRoot(document.getElementById('root')).render(
                 <Route path="/login-select" element ={<LoginSelect/>}/>
                 <Route path="/explore-page" element ={<ExplorePage/>}/>
                 <Route path="/establishment-overview" element ={<OverviewReview/>}/>
+                <Route path="/rating-page" element ={<RatingPage/>}/>
+                <Route path="/write-review" element ={<WriteReview/>}/>
+
+
 
                 <Route path="*" element={<Notfound />} />
             </Routes>
