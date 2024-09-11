@@ -12,9 +12,10 @@
 - php artisan serve
 
 
-## Run React Application
-- Terminal type
-- npm run dev
+## Go to react folder
+- go to terminal and type
+- cd react
+
 
 ## Install Dependencies
 
@@ -26,6 +27,10 @@
 - npm install -D tailwindcss postcss autoprefixer
 
 - npx tailwindcss init
+
+## Run React Application
+- on react folder terminal type
+- npm run dev
 
 
 
