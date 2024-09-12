@@ -23,7 +23,7 @@ export default function Navigation() {
                     <li><a href="#event" className='hover:text-accent transition'>News & Events</a></li>
                     <li><a href="#discover" className='hover:text-accent transition'>Discover</a></li>
                     <li ><a href="#about" className='hover:text-accent transition'>About</a></li>
-                    <button className="bg-accent hover:bg-blue-900 transition-all text-white px-6 py-2 rounded-lg active:scale-[0.98] active-duration-75 "><a href="/login-select">Sign in</a></button>
+                    <a href="/login-select"><button className="bg-accent hover:bg-blue-900 transition-all text-white px-6 py-2 rounded-lg active:scale-[0.98] active-duration-75 ">Sign in</button></a>
                 </ul>
             </div>
             
@@ -54,7 +54,7 @@ export default function Navigation() {
                   <a href="#discover" className="py-3 px-2 rounded-xl text-primary hover:text-accent transition hover:bg-highlight">Discover</a>
                   <a href="#about" className="py-3 px-2 rounded-xl text-primary hover:text-accent transition hover:bg-highlight">About</a>
               </div>
-                <a href="#" className="text-base my-4 bg-accent text-white  hover:bg-blue-900 transition inline-flex justify-center rounded-lg text-sm  py-3 px-4 w-full">Sign in</a>
+                <a href="/login-select" className="my-4 bg-accent text-white  hover:bg-blue-900 transition inline-flex justify-center rounded-lg text-sm  py-3 px-4 w-full">Sign in</a>
                 
                
             </div>

@@ -11,7 +11,7 @@ import ReviewCard from '../Functions/ReviewCard';
 export default function  OverviewReview () {
     const review = {
         profileImage: "/demo-profile.png",
-        userName: "User Name",
+        userName: "User name",
         ratingImage: "5Stars.svg",
         reviewTitle: "Review for At the blanc",
         reviewText: "Loved the cozy atmosphere and friendly staff! The latte was perfect, and the pastries were fresh and delicious. The outdoor seating area is a great place to relax and enjoy a sunny afternoon. Definitely my new go-to spot!",
@@ -20,7 +20,7 @@ export default function  OverviewReview () {
     return (
       <>
       <HeaderLogo/>
-      <div className='relative flex flex-col gap-6 font-Manregular text-left px-12 py-24 bg-white rounded-xl ring-1 ring-gray-100 shadow-sm my-24 w-full h-90 overflow-hidden'>
+      <div className='relative flex flex-col gap-6 font-Manregular text-left px-12 py-24 bg-white rounded-xl ring-1 ring-gray-100 shadow-sm md:my-24 my-12 w-full h-90 overflow-hidden'>
       <div className="absolute inset-0 z-10 bg-gradient-to-r from-black via-black to-transparent opacity-50 "/>
       <div className='absolute inset-0 bg-[url("/public/at-the-blanc-banner.png")] bg-cover bg-center rounded-xl'/>
          <div className='relative z-10 text-white '>
@@ -30,11 +30,11 @@ export default function  OverviewReview () {
          </div>
         </div>
 
-        <div className='mx-auto my-28'>
-  <div className='flex flex-col lg:flex-row justify-between gap-8 px-6'>
+        <div className='mx-auto md:my-28'>
+  <div className='flex flex-col lg:flex-row justify-between gap-8 md:px-6'>
 
     <div className='flex flex-col gap-8'>
-      <div className='flex flex-col md:flex-row md:justify-between  gap-16'>
+      <div className='flex flex-col md:flex-row md:justify-between md:items-center md:gap-16 gap-4'>
         <div className='font-Manregular flex flex-col text-left gap-2'>
           <h6 className=''>25+ Reviews</h6>
           <h2 className='text-3xl font-Manbold'>At the Blanc</h2>
@@ -45,14 +45,12 @@ export default function  OverviewReview () {
         </div>
 
         <div className='flex flex-col gap-4'>
-          <Button variant='primary'><a href="/write-review">Write a review</a></Button>
-          <div className='grid place-items-center'>
-            <img src="/atb-qr.png" alt="QR Code" className='w-[150px]' />
-          </div>
+        <a href="/write-review"><Button variant='primary'>Write a review</Button></a>
+    
         </div>
       </div>
 
-      <ul className='font-Manbold flex flex-col gap-4 mt-10'>
+      <ul className='font-Manbold flex flex-col gap-4 md:mt-10'>
         <li className='flex justify-between text-xl'>
           Food <img src="/4.9-Rate-star.svg" className='w-[130px]' alt="" />
         </li>
@@ -75,12 +73,12 @@ export default function  OverviewReview () {
   </div>
 
     {/* Container of Overview Review and Nearby  */}
-  <div className='font-Manregular flex flex-col md:flex-col lg:flex-row justify-between gap-8 text-left my-20 '>
+  <div className='font-Manregular flex flex-col md:flex-col lg:flex-row justify-between gap-8 text-left md:my-20 '>
   
     {/* Container of Overview Review */}
     
-    <div className=' my-14 w-full ring-1 ring-icons rounded-2xl  p-6'>
-    <h1 className='text-3xl mb-20'>Read overviews</h1>
+    <div className=' my-14 w-full bg-white ring-1 ring-icons rounded-2xl  p-6'>
+    <h1 className='text-3xl ,d:mb-20'>Read overviews</h1>
        <ReviewCard
         profileImage={review.profileImage}
         userName={review.userName}

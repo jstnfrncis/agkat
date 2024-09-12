@@ -11,7 +11,7 @@ export default function MeshBackground() {
     <div className='h-full w-full bg-white relative flex items-center justify-center'>
       <div
         className="absolute inset-0">
-        <img className="w-full h-full object-cover" src="/public/mesh-background.png" alt="mesh-background" />
+        <img className="w-full h-full object-cover" src="./public/mesh-background.png" alt="Background gradient" />
       </div>
     </div>
   </div>

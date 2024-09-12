@@ -16,7 +16,7 @@ export default function Comment() {
 
   return (
     <>
-      <div className="font-Manregular flex flex-col gap-10 md:mt-24 mt-12">
+      <div className="font-Manregular flex flex-col gap-10 md:mt-12 mt-12">
         <div className="text-left flex flex-col gap-4">
           <h1 htmlFor="OrderNotes" className="block font-Manbold font-medium text-primary md:text-2xl">
             Write your comment

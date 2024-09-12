@@ -7,11 +7,11 @@ export default function Summary(){
     return(
         <>
         
-         <div className="md:mt-12" >
+         <div className="md:mt-12 mt-12" >
          <h1 className="text-left block font-Manbold font-medium text-primary md:text-2xl">
            Summary
           </h1>
-       <div className="font-Manregular flex flex-col gap-4 mt-12 bg-white p-6">
+       <div className="font-Manregular flex flex-col gap-4 mt-12 bg-white rounded-xl p-6">
               <section className="sm:flex  justify-between items-center ">
                      <div className="flex flex-col text-left gap-2">
                        <h1 className="text-2xl md:text-xl font-Manbold text-primary">Food Quality</h1>

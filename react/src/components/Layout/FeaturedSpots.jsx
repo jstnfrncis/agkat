@@ -85,8 +85,9 @@ FeaturedSpots.propTypes = {
           <p className='text-white font-Manregular text-left'>{category}</p>
           <div className='flex justify-between items-center'>
             {stars}
+            <a href="/login-select">
             <button className='font-Manbold rounded-3xl bg-accent text-white  hover:bg-blue-900 transition-all inline-flex justify-center  text-sm  py-3 px-6 active:scale-[0.98] active-duration-75 ' >{button}</button>
-            
+            </a>
           </div>
           
         </div>

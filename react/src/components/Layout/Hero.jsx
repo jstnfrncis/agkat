@@ -10,11 +10,13 @@ const  Hero = () => {
             <p className="font-epilogue max-w-[450px]">Discover the best cafés and restaurants through reviews covering their overall performance.</p>
 
             <div>
-                <button className="font-epilogue inline-flex flex-none bg-accent hover:bg-blue-900 transition-all active:scale-[0.98] active-duration-75 transition-all text-white px-6 py-2 rounded-lg">Featured Spots</button>
+                <a href="#discover">
+                <button className="font-epilogue inline-flex flex-none bg-accent hover:bg-blue-900 transition-all active:scale-[0.98] active-duration-75  text-white px-6 py-2 rounded-lg">Featured Spots</button>
+                </a>
             </div>
         </div>
         <div className="w-full max-w-[600px]">
-            <img className="w-full h-auto mt-10   " src="/public/rating-production.png" alt="rating-image" />
+            <img className="w-full h-auto mt-10   " src="./public/rating-production.png" alt="rating-image" />
         </div>
     </div>
   )
