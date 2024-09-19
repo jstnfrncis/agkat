@@ -4,10 +4,10 @@ const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    'public/sale-banner.jpg',
-    'public/sale-banner.jpg',
-    'public/sale-banner.jpg',
-    'public/sale-banner.jpg',
+    './public/sale-banner.jpg',
+    './public/sale-banner.jpg',
+    './public/sale-banner.jpg',
+    './public/sale-banner.jpg',
 
   ];
 

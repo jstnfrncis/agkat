@@ -6,14 +6,14 @@ export default function Dropdown() {
     <Menu as="div" className="relative inline-block text-left font-Manregular text-primary">
   
     <div>
-        <MenuButton className="flex items-center justify-center font-Manbold rounded-md appearance-none bg-transparent px-6 py-4 text-sm text-primary placeholder:text-slate-600 focus:outline-none sm:text-sm sm:leading-6 ring-1 ring-stroke shadow-sm hover:bg-accent hover:text-white active:scale-[0.98] active-duration-75 w-full">
+        <MenuButton className="bg-white flex items-center justify-center font-Manbold rounded-md appearance-none bg-transparent px-6 py-4 text-sm text-primary placeholder:text-slate-600 focus:outline-none sm:text-sm sm:leading-6 ring-1 ring-stroke shadow-sm hover:bg-accent hover:text-white active:scale-[0.98] active-duration-75 w-full">
           Rating
           <ChevronDownIcon aria-hidden="true" className="-mr-1 h-5 w-5 text-gray-400" />
         </MenuButton>
       </div>
 
 
-      <MenuItems transition className="absolute right-0 z-20 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in">
+      <MenuItems transition className="w-full  absolute right-0 z-20 mt-2  origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in">
         <div className="py-1 w-full">
           <MenuItem>
             <button

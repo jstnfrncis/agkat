@@ -75,7 +75,7 @@ export default function Signin() {
                   />
          <label htmlFor="checkbox">Show password</label>
           </div>
-          <Button variant="primary"><a href="/otpverification">Create account</a></Button>
+          <a href="/otpverification"><Button variant="primary">Create account</Button></a>
         </div>
       </form>
 

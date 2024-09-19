@@ -55,7 +55,7 @@ export default function Login() {
                   />
          <label htmlFor="checkbox">Show password</label>
           </div>
-        <Button variant="primary" ><a href="/explore-page" target='blank'>Sign in</a></Button>
+          <a href="/explore-page"><Button variant="primary" >Sign in</Button></a>
         </div>
       </form>
 

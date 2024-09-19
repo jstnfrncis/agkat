@@ -14,17 +14,14 @@ import ExplorePage from './components/Pages/ExplorePage';
 import OverviewReview from './components/Pages/OverviewReview';
 import RatingPage from './components/Pages/RatingPage';
 import WriteReview from './components/Pages/WriteReview';
-
-
-
-
+import EstablishmentQrCode from './components/Establishment/Establishment-Qr';
 
 
 import Notfound from './components/Pages/Noutfound'; 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <Router>
+  <Router >
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
@@ -38,9 +35,7 @@ createRoot(document.getElementById('root')).render(
                 <Route path="/establishment-overview" element ={<OverviewReview/>}/>
                 <Route path="/rating-page" element ={<RatingPage/>}/>
                 <Route path="/write-review" element ={<WriteReview/>}/>
-
-
-
+                <Route path="/establishment-name/qr-code" element ={<EstablishmentQrCode/>}/>
                 <Route path="*" element={<Notfound />} />
             </Routes>
         </Router>

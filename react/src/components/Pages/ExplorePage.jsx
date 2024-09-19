@@ -12,7 +12,7 @@ const  FeaturedSpots = ( {className}) => {
     return (
       <>
       <HeaderLogo/>
-      <div className='relative flex flex-col gap-6 font-Manregular text-left px-12 py-24 bg-white rounded-xl ring-1 ring-gray-100 shadow-sm my-24 w-full h-90'>
+      <div className='relative flex flex-col gap-6 font-Manregular text-left px-12 py-24 bg-white rounded-xl ring-1 ring-gray-100 shadow-sm md:my-24 my-12 w-full h-90'>
       <div className='absolute inset-0 bg-none md:bg-[url("/public/explore-banner.png")] bg-cover bg-center rounded-xl'/>
          <div className='relative z-10 '>
            <h1 className='font-clash text-4xl md:text-5xl lg:text-6xl'>Start exploring!</h1>
@@ -21,30 +21,31 @@ const  FeaturedSpots = ( {className}) => {
       
         </div>
 
-    <div className='max-w-custom mx-auto my-28'>
+    <div className='max-w-custom mx-auto md:my-28'>
           <div className='flex flex-col gap-4 justify-between lg:flex-row lg:gap-4 mb-16'>
-            <div className='relative font-Manregular w-full md:w-auto'>
-           <img src="/search-icon.svg" alt="" className='absolute left-5 top-1/2 transform -translate-y-1/2' />
-            <input className="relative font-Manbold block rounded-md appearance-none bg-transparent pl-12 py-4 pr-12 text-sm  text-primary placeholder:text-primary focus:outline-accent sm:text-sm sm:leading-6 ring-1 ring-stroke shadow-sm w-full" placeholder="Search place" type="text"/>
+            <div className='relative font-Manregular w-full md:w-full'>
+          
+            <input className="bg-white relative font-Manbold block rounded-md appearance-none bg-transparent pl-12 py-4 pr-12 placeholder:text-primary focus:outline-accent sm:text-sm sm:leading-6 ring-1 ring-stroke shadow-sm w-full" placeholder="Enter a keyword" type="text"/>
+            <img src="/search-icon.svg" alt="" className='text-primary absolute left-5 top-1/2 transform -translate-y-1/2' />
             </div>
             <div className='flex flex-col gap-4 sm:grid sm:grid-cols-2 sm:gap-2 lg:flex lg:flex-row lg:gap-4 lg:justify-between '>
-              <Button variant="neutral" className="flex justify-center items-center gap-2">
-                <img src="/Nearby.svg" alt="" />
+              <Button variant="neutral" className="bg-white flex justify-center items-center gap-2">
+                <img src="/Nearby.svg" className='hover:text-white' alt="" />
                 Nearby
               </Button>
-             <Button variant="neutral" className="flex justify-center items-center gap-2">
+             <Button variant="neutral" className="bg-white flex justify-center items-center gap-2">
                 <img src="/cafe-icon.svg" alt="" />
                 Cafe
               </Button>
-              <Button variant="neutral" className="flex justify-center items-center gap-2">
+              <Button variant="neutral" className="bg-white flex justify-center items-center gap-2">
                 <img src="/resto-icon.svg" alt="" />
                 Resto
               </Button>
-              <Dropdown/>
+              <Dropdown className="bg-white"/>
             </div>
           </div>
           
-        <div className='flex flex-col gap-12'>
+        <div className='flex flex-col gap-12 mb-12'>
       
         <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ${className}`}>
            <FeaturedCard className='bg-[url(/est1.png)] bg-no-repeat bg-cover'
@@ -122,7 +123,8 @@ FeaturedSpots.propTypes = {
           <p className='text-white font-Manregular text-left'>{category}</p>
           <div className='flex justify-between items-center'>
             {stars}
-            <button className='font-Manbold rounded-3xl bg-accent text-white  hover:bg-blue-900 transition-all inline-flex justify-center  text-sm  py-3 px-6 active:scale-[0.98] active-duration-75 ' ><a href="/establishment-overview">{button} </a></button>
+            <a href="/establishment-overview">
+            <button className='font-Manbold rounded-3xl bg-accent text-white  hover:bg-blue-900 transition-all inline-flex justify-center  text-sm  py-3 px-6 active:scale-[0.98] active-duration-75 ' >{button}</button> </a>
             
           </div>
           

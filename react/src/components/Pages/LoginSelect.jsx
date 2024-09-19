@@ -17,12 +17,12 @@ export default function LoginSelect() {
          </div>
              <div className="flex flex-col lg:flex-row gap-12 items-center">
                <div className="flex flex-col w-full justify-center items-center gap-6 bg-white rounded-xl ring-1 ring-gray-100 shadow-sm px-4 py-12 lg:px-10 lg:py-24">
-                     <Button variant="primary" className="!p-4 text-lg"><a href="/login">Log in to Review</a></Button>
+               <a href="/login"className='w-full' ><Button variant="primary" className="!p-4 text-lg"> Log in to Review</Button> </a>
                       <p className='text-primary font-Manregular text-center text-sm'>Log in to <span className='font-Manbold'>leave reviews</span> for your favorite cafes and restaurants. Share your experiences and help others discover the best spots in San Fernando.</p>
                </div>
 
                <div className="flex flex-col w-full justify-center items-center gap-6 bg-white rounded-xl ring-1 ring-gray-100 shadow-sm px-4 py-12 lg:px-10 lg:py-24">
-                     <Button variant="secondary" className="!p-4 text-lg"><a href="/explore-page">Sign in as Guest</a></Button>
+                 <a href="/explore-page" className='w-full'>   <Button variant="secondary" className="!p-4 text-lg">Sign in as guest</Button></a> 
                       <p className='text-primary font-Manregular text-center text-sm'>For <span className='font-Manbold'>immediate access</span> to the top-rated cafes and restaurants in San Fernando. No account needed—just one step to start exploring!</p>
                </div>
              </div>
