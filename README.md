@@ -22,6 +22,7 @@
 - npm install react-router-dom
 - npm install prop-types
 - npm install @radix-ui/react-dropdown-menu @remixicon/react
+- npm install qrcode.react
 
 ## Install Tailwind
 - npm install -D tailwindcss postcss autoprefixer
