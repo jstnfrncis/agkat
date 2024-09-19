@@ -38,13 +38,13 @@ const Stepper = ({ step, onNext, onBack }) => {
 
       </div>
       <div
-        className={`relative after:absolute after:inset-x-0 after:top-1/2 after:block after:h-1 after:-translate-y-1/2 after:rounded-lg b  ${
+        className={`relative after:absolute after:inset-x-0 after:top-1/2 after:block after:h-1 after:-translate-y-1/2 after:rounded-lg after:bg-gray-200  ${
           step === 2
             ? 'after:bg-accent after:bg-[#5d5fef] after:w-1/2'
             : step === 3
             ? 'after:bg-accent after:bg-[#5d5fef] after:w-full'
             : ''
-            // For fallback colors.
+            // For Safelist.
         }`} 
       >
         <ol className="relative z-10 flex justify-between text-sm font-medium text-white">
