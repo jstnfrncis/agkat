@@ -14,7 +14,7 @@ import ExplorePage from './components/Pages/ExplorePage';
 import OverviewReview from './components/Pages/OverviewReview';
 import RatingPage from './components/Pages/RatingPage';
 import WriteReview from './components/Pages/WriteReview';
-import EstablishmentQrCode from './components/Establishment/Establishment_QrCode';
+import EstablishmentQrCode from './components/Establishment/Establishment-Qr';
 
 
 import Notfound from './components/Pages/Noutfound'; 
