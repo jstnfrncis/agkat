@@ -2,12 +2,12 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Pages/Home'
-import Login from './components/Pages/Login'
+import Login from './components/Authentication/Login'
 import './index.css'
-import Signin from './components/Pages/Signup';
-import PasswordReset from './components/Pages/PasswordReset';
-import Otpverification from './components/Pages/Otpverification';
-import OtpPasswordReset from './components/Pages/OtpPasswordReset';
+import Signin from './components/Authentication/Signup';
+import PasswordReset from './components/Authentication/PasswordReset';
+import Otpverification from './components/Authentication/Otpverification';
+import OtpPasswordReset from './components/Authentication/OtpPasswordReset';
 import Dashboard from './components/Pages/Dashboard';
 import LoginSelect from './components/Pages/LoginSelect';
 import ExplorePage from './components/Pages/ExplorePage';
