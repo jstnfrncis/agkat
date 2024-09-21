@@ -38,11 +38,11 @@ const Stepper = ({ step, onNext, onBack }) => {
 
       </div>
       <div
-        className={`relative after:absolute after:inset-x-0 after:top-1/2 after:block after:h-1 after:-translate-y-1/2 after:rounded-lg after:bg-gray-200  ${
+        className={`relative after:absolute after:inset-x-0 after:top-1/2 after:block after:h-1 after:-translate-y-1/2 after:rounded-lg  ${
           step === 2
-            ? 'after:bg-accent after:bg-[#5d5fef] after:w-1/2'
+            ? 'after:bg-[#5d5fef] after:w-1/2'
             : step === 3
-            ? 'after:bg-accent after:bg-[#5d5fef] after:w-full'
+            ? ' after:bg-[#5d5fef] after:w-full'
             : ''
             // For Safelist.
         }`} 
