@@ -1,7 +1,7 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-<p align="center"><img src="https://shorturl.at/Xy5HM" width="400" alt="React Logo"></p>
+<p align="center"><img src="https://shorturl.at/Xy5HM" width="200" alt="React Logo"></p>
 
-## Install composer
+## Install composer (Make sure Php Version is 8.2 to test go to cmd and type php -v)
 
 - Terminal type
 - composer global require "laravel/installer=~1.1"
